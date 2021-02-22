@@ -169,6 +169,7 @@ div.product div.images.with-thumbnails .product-image {
 }
 .swiper-container {
 	margin-top: -80px;
+	margin-bottom: 10px;
 }
 .wppg-load-more-template-5 a.wppg-load-more-trigger {
 	font-size: 14px;
@@ -205,4 +206,81 @@ div.product div.images.with-thumbnails .product-image {
 	width:200px;
 	height: auto;
 	margin-bottom: -20px;
+}
+.woocommerce .products .product .image img {
+	width: 90%;
+}
+.wcpscwc-product-slider button.slick-next {
+	background-color: red;
+}
+table {
+	border-style: none;
+}
+
+#m360-box-710300308151 [style] {
+    display: inline-block; 
+    overflow: hidden; 
+    position: relative; 
+    text-align: center; 
+    width: 100%; 
+    max-width: 400px !important; 
+}
+
+.woocommerce .products .product a.woocommerce-LoopProduct-link {
+	margin-top: 50px;
+}
+.woocommerce img, .woocommerce-page img{
+	width: auto;
+}
+.woocommerce-Price-currencySymbol {
+	display: none;
+}
+.atw_item_title a {
+	font-family: barlow;
+	font-weight: 600;
+	text-align: center;
+}
+.sp-wps-product-image-area {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 
+}
+#wps-slider-section .wpsf-product-title {
+	padding-top: 30px;
+}
+
+#wps-slider-section #sp-woo-product-slider-2722 .wpsf-product-title a {
+	font-size: 1 rem;
+	font-weight: 600;
+	text-align: center;
+}
+#wps-slider-section #sp-woo-product-slider-2722 .wpsf-product-title a:hover {
+	color: #DA1A32;
+}
+.mcs-bullet {
+	background-color: #DA1A32 !important;
+}
+.mcs-bullet.active {
+	background-color: blue;
+	border: 2px solid white !important;
+}
+
+@media only screen and (max-width: 1200px)
+.wppg-main-product-wrapper.wppg-desktop-col-3 .wppg-inner-wrap, .wppg-main-product-wrapper.wppg-tablet-col-3 .wppg-inner-wrap {
+	width: 33.33%;
+}
+}
+
+@media only screen and (max-width: 786px){
+	.wppg-main-product-wrapper.wppg-desktop-col-3 .wppg-inner-wrap, .wppg-main-product-wrapper.wppg-tablet-col-3 .wppg-inner-wrap {
+	width: 50%;
+}
+	
+}
+
+
+@media only screen and (max-width: 400px) {
+.wppg-main-product-wrapper.wppg-desktop-col-3 .wppg-inner-wrap, .wppg-main-product-wrapper.wppg-tablet-col-3 .wppg-inner-wrap {
+	width: 100%;
+}
 }
