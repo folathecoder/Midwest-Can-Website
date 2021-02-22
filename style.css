@@ -265,7 +265,7 @@ table {
 	border: 2px solid white !important;
 }
 
-@media only screen and (max-width: 1200px)
+@media only screen and (max-width: 1200px) {
 .wppg-main-product-wrapper.wppg-desktop-col-3 .wppg-inner-wrap, .wppg-main-product-wrapper.wppg-tablet-col-3 .wppg-inner-wrap {
 	width: 33.33%;
 }
